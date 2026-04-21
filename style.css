@@ -167,7 +167,32 @@
         }
         
         footer i {
+            display: flex;
+            justify-content: center;
+            align-items: center;
             padding-top: 20px;
             width: 100px;
             height: 100px;
         }
+        @media (max-width: 768px) {
+            .h1 {
+                font-size: 30px;
+            }
+            .p {
+                font-size: 16px;
+            }
+        }
+        @media (max-width: 480px) {
+            .h1 {
+                font-size: 20px;
+            }
+            .p {
+                font-size: 14px;
+            }
+        }
+        @media (max-width: 320px) {
+            .h1 {
+                font-size: 16px;
+            }
+        }   
+        

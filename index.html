@@ -1,24 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home page</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- FONT AWESOME -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
     <link rel="shortcut icon" href="./house-solid-full.svg" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-</head>
-<script src="script.js"></script>
 
+  <!-- GOOGLE FONT -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
 <body>
-    <div class="texts">
-        <h1 class="h1">Assalomu aleykum</h1>
-        <h1 class="h1">Xush kelibsiz!</h1>
-        <p class="p">Men haqimda qisqacha ma'lumot <br> Mening ismim Islom yoshim 12da <br> va men S-F11 guruhida o'qiyapman bu yerda mening proyektlarim</p>
+
+  <!-- HERO -->
+  <section class="hero">
+
+    <div class="container">
+
+      <nav>
+        <div class="logo">
+          Portfo<span>lio</span>
+        </div>
+
+        <ul>
+          <li><a href="#" data-i18n="nav-home">Home</a></li>
+          <li><a href="#" data-i18n="nav-about">About Us</a></li>
+          <li><a href="#" data-i18n="nav-services">Services</a></li>
+          <li><a href="#" data-i18n="nav-skills">Skills</a></li>
+          <li><a href="#" data-i18n="nav-contact">Contact Us</a></li>
+        </ul>
+
+        <div class="lang-switcher">
+          <select id="language-select">
+            <option value="en">EN</option>
+            <option value="uz">UZ</option>
+            <option value="ru">RU</option>
+          </select>
+        </div>
+
+        <a href="#" class="btn" data-i18n="nav-subscribe">Subscribe</a>
+      </nav>
+
+      <div class="hero-content">
+
+        <div class="left">
+          <h4 data-i18n="hero-hello">Hello, my name is</h4>
+
+          <h1 data-i18n="hero-name">Islom <span>Erkinov</span></h1>
+
+          <h3 data-i18n="hero-title">I'am a Web Developer.</h3>
+
+          <div class="email-box">
+            <input type="email" placeholder="Enter Your Email" data-i18n-placeholder="hero-email-placeholder">
+            <button data-i18n="hero-start">Let's Start</button>
+          </div>
+        </div>
+
+        <div class="right">
+          <div class="image-box">
+
+            <!-- HERO IMAGE -->
+            <img src="./img me.jpg" alt="">
+
+          </div>
+        </div>
+
+      </div>
+
     </div>
 
-    <div class="frames">
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about">
+
+    <div class="container">
+
+      <div class="about-content">
+
+        <div class="about-img">
+
+          <!-- ABOUT IMAGE -->
+          <img src="./img me.jpg" alt="">
+
+        </div>
+
+        <div class="about-text">
+
+          <h2 data-i18n="about-title">About Me</h2>
+
+          <h5 data-i18n="about-subtitle">Developer <span>& Designer</span></h5>
+
+          <p data-i18n="about-text">
+            I am a front-end web developer. I can provide clean code
+            and pixel perfect design. I also make the website more &
+            more interactive with web animations. I can provide clean
+            code and pixel perfect design.
+          </p>
+
+          <a href="#" class="btn" data-i18n="about-btn">Let's Talk</a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services">
+
+    <div class="container">
+ <div class="frames">
         <div class="frame1">
             <iframe class="preview" src="https://chess-lake-psi.vercel.app/"></iframe>
             <a href="https://chess-lake-psi.vercel.app/">
@@ -39,18 +138,44 @@
             </a>
         </div>
     </div>
-    <footer>
-        <p>&copy; 2026 My Website. All rights reserved.</p>
-        <a href="https://github.com/islom99" target="_blank"><i class="fa-brands fa-github"
-                style="color: rgb(205, 223, 255);"></i></a>
-        <a href="https://www.linkedin.com/in/islomjon-erkinov-2b5b98403/" target="_blank"><i class="fa-brands fa-linkedin"
-                style="color: rgb(205, 223, 255);"></i></a>
-        <a href="https://instagram.com/webmidle/" target="_blank"><i class="fa-brands fa-instagram"
-                style="color: rgb(205, 223, 255);"></i></a>
-        <a href="https://t.me/webmidle" target="_blank"><i class="fa-brands fa-telegram"
-                style="color: rgb(205, 223, 255);"></i></a>
+  </section>
 
-    </footer>
+  <!-- HIRE -->
+  <section class="hire">
+
+    <h2 data-i18n="hire-title">Let Me Get You A Beautiful Website.</h2>
+
+    <a href="#" class="btn" data-i18n="hire-btn">Hire Me</a>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+
+    <h2 data-i18n="footer-name">Islomjon Erkinov</h2>
+
+    <p data-i18n="footer-text">
+      For more HTML, CSS, and coding tutorial - please click on the
+      link below to subscribe to my channel.
+    </p>
+
+    <div class="socials">
+
+      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+
+      <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+
+    </div>
+
+    <div class="copy" data-i18n="footer-copy">
+      Copyright By Islomjon Erkinov
+    </div>
+
+  </footer>
+
+  <script src="script.js"></script>
+
 </body>
-
 </html>

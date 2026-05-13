@@ -80,6 +80,12 @@
 
     /* ===== LANG SWITCHER ===== */
 
+    .lang-item {
+        display: flex;
+        align-items: center;
+        margin-left: -20px;
+    }
+
     .lang-switcher select {
         background: #191919;
         color: white;

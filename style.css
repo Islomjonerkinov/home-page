@@ -23,6 +23,7 @@
     .container {
         width: 90%;
         margin: auto;
+        
     }
 
     /* ===== NAVBAR ===== */
@@ -211,6 +212,7 @@
         width: 350px;
         height: 450px;
         overflow: hidden;
+
     }
 
     .about-img img {
@@ -512,3 +514,6 @@
             font-size: 16px;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
+#container{
+    padding-right: 100px;
+}

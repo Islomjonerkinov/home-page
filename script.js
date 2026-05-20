@@ -31,7 +31,7 @@ const translations = {
     "nav-subscribe": "Obuna bo'lish",
     "hero-hello": "Salom, mening ismim",
     "hero-name": "Islom <span>Erkinov</span>",
-    "hero-title": "Men Veb Dasturchiman.",
+    "hero-title": "Men Web Dasturchiman.",
     "hero-email-placeholder": "Emailingizni kiriting",
     "hero-start": "Boshladik",
     "about-title": "Men haqimda",
